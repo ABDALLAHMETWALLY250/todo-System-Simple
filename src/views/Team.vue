@@ -56,6 +56,7 @@ export default {
     };
   },
   async mounted() {
+        window.scrollTo(0, 0);
     await axios
       .get(
         "https://employee-crud-e1e7a-default-rtdb.firebaseio.com/users/employee.json"
