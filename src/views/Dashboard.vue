@@ -140,6 +140,7 @@ export default {
   },
   mounted() {
     this.getProject();
+        window.scrollTo(0, 0);
   },
   methods: {
     getProject() {
