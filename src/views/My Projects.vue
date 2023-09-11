@@ -41,6 +41,7 @@ export default {
     },
   },
   mounted() {
+        window.scrollTo(0, 0);
     axios
       .get("https://todo-leader-default-rtdb.firebaseio.com/project.json")
       .then((res) => {
